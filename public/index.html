@@ -6,6 +6,7 @@
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Web site created using create-snowpack-app" />
+  <script src="dist/index.js" type="module"></script>
   <link rel="stylesheet" type="text/css" href="/index.css" />
   <title>Snowpack App</title>
 </head>
@@ -19,8 +20,11 @@
 
 <body>
   <ul id="list"></ul>
-  <form id="new-task-form"></form>
-  <button type="submit">Add</button>
+  <form id="new-task-form">
+    <input type="text" id="new-task-title">
+    <button type="submit">Add</button>
+  </form>
+
 </body>
 
 </html>
