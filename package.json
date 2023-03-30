@@ -1,0 +1,23 @@
+{
+  "name": "typescript_101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrimsonCoder42/typescript_101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrimsonCoder42/typescript_101/issues"
+  },
+  "homepage": "https://github.com/CrimsonCoder42/typescript_101#readme",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
